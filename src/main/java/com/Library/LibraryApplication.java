@@ -15,10 +15,11 @@ public class LibraryApplication {
 
 		SpringApplication.run(LibraryApplication.class, args);
 
-
+		System.out.println("Version 2");
 	}
 	@Bean
 	ModelMapper modelMapper(){
 		return new ModelMapper();
 	}
+
 }
